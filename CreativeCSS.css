@@ -1,0 +1,377 @@
+*{
+	font-family:Cursive;
+}
+h1{
+	color: darkgray;
+	text-align: center;
+	font-size: 155px;
+	text-shadow: 5px 5px 5px #444;
+	text-transform: uppercase;
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-40%);
+	text-align: center;
+	
+}
+.Heading2{
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	text-shadow: 5px 5px 5px #444;
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-10%);
+	text-align: center;
+	padding: 0px 30px;
+	padding: 0px 20px;
+	transition: all 2s ease-in-out;
+}
+.Heading2:hover{
+	width: 150px;
+	height: 200px;
+	right: 50px;
+}
+main {
+color: rgb(10,10,150);
+text-align: center;
+background: rgb(169, 169, 169);
+
+}
+body {
+	background-color: #F5F5DC
+}
+.NepalFlag {
+	height: 25%;
+	transition: all 2s;
+	padding: 25px;
+	
+}
+.NepalFlag:hover {
+	left: 100%;
+	transform: scaleX(-1);
+}
+.BhutanFlag {
+	height:25%;
+	padding: 25px;
+	transition: all 2s;
+}
+.BhutanFlag:hover {
+	right: 100%;
+	transform: scaleX(-1);
+}
+.People {
+	height: 140px;
+	border-radius: 8px;
+	width: 25%;
+	float: right;
+	padding: 0px 20px 20px 0px;
+	
+}
+.KingQueen {
+	height: 140px;
+	width: 25%;
+	border-radius: 8px;
+	opacity: 1;
+}
+.Mountains {
+	height: 140px;
+	width: 20%;
+	border-radius: 8px;
+}
+.Mountains:hover{
+	transform: scaleX(-1);
+}
+.Bhutan {
+	height: 140px;
+	width: 20%;
+	border-radius: 8px;
+}
+.Bhutan:hover{
+	transform: scaleX(-1);
+}
+.Massacre {
+	height: 140px;
+	width:25%;
+	border-radius: 8px;
+}
+.Culture {
+	height: 140px;
+	width:25%;
+	border-radius: 8px;
+	float: right;
+}
+.Panchthar {
+	height: 140px;
+	width:20%;
+	border-radius: 8px;
+}
+.Panchthar:hover {
+	transform: scaleX(-1);
+}
+.Nepal {
+	height: 140px;
+	width:20%;
+	border-radius: 8px;
+}
+.Nepal:hover{
+	transform: scaleX(-1);
+}
+
+
+.Contact {
+	font-size: 25px;
+	color: gray;
+	text-align: center;
+	width: 30%;
+	height: 15vh;
+}
+.ContactMe {
+	
+	font-size: 25px;
+	color: gray;
+	text-align: center;
+	width: 30%;
+	height: 15vh;
+	padding: 25px;
+	
+}
+
+.move {
+	position: relative;
+	left: 100px;
+	top: 10px;
+	transition: all 2s;
+}
+.move:hover {
+	left: 50px;
+}
+.front {
+	width: 100%;
+	height: 90vh;
+	background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(Image/Flower.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.navbar {
+	width: 85%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 26px;
+	padding: 25px 12px;
+}
+ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	transition: 0.6s ease;
+	text-decoration: none;
+}
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+.Page2 {
+	width: 100%;
+	height: 90vh;
+	color: rgb(255, 163, 77);
+	background-color:rgb(255, 255, 204);
+	font-size: 25px;
+	align-content: center;
+
+}
+.BhutanPage {
+	border: 1px solid #000;
+	text-align:center;
+	width: 80%;
+	padding: 25px 25px;
+	transition: width 1s ease;
+	margin: auto;
+}
+.BhutanPage:hover {
+	width:275px;
+}
+.NepalPage {
+	border: 1px solid #000;
+	width: 80%;
+	padding: 25px 25px;
+	transition: width 1s ease-out;
+	text-align:center;
+	margin: auto;
+}
+.NepalPage:hover {
+	width: 275px
+}
+
+section p{
+	color: black;
+	font-size: 15px;
+}
+
+.Third {
+	width: 100%;
+	height: 120vh;
+	background-color: rgb(242, 242, 242);
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+#Exile h3 {
+	color:rgb(255, 163, 77);
+	font-size: 20px;
+}
+.section1{
+	border: 1px solid #000;
+	margin: auto;
+	width: 70%;
+	padding: 25px 10px;
+	animation: slide-out 0.5s forward;
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(Image/School.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.section1 ul li{
+	color:white;
+}
+.section1 p{
+	color:white;
+}
+.section2{
+	border: 1px solid #000;
+	margin: auto;
+	width: 70%;
+	padding: 25px 10px;
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(Image/Exile.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.section2 p{
+	color:white;
+}
+.section3 {
+	border: 1px solid #000;
+	margin: auto;
+	width: 70%;
+	padding: 25px 10px;
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(Image/Women.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.section3 p{
+	color:white;
+}
+	
+.Third ul li {
+	font-size: 15px;
+}
+#RefugeeCamp {
+	width: 100%;
+	height: 120vh;
+	background-color:rgb(230, 255, 230);
+	color: rgb(255, 163, 77);
+	text-align: center;
+	font-size: 20px;
+}
+.Camp1{
+	border: 1px solid #000;
+	margin: auto;
+	width: 70%;
+	padding: 25px 10px;
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(Image/Kathmadu.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+.Camp1 p{
+	color: white;
+}
+
+.Camp2{
+	border: 1px solid #000;
+	margin: auto;
+	width: 70%;
+	padding: 25px 10px;
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(Image/NepalFlag.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+.Camp2 p{
+	color:white;
+}
+.Camp3{
+	border: 1px solid #000;
+	margin: auto;
+	width: 70%;
+	padding: 25px 10px;
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.77)),url(Image/Village.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.Camp3 p{
+	color:white;
+}
+#America {
+	width: 100%;
+	height: 120vh;
+	background-color: rgb(255, 255, 204);
+	color: rgb(255, 163, 77);
+	text-align: center;
+	font-size: 20px;
+}
+.America1{
+	border: 1px solid #000;
+	width: 70%;
+	margin: auto;
+	padding: 25px 10px;
+}
+.America2 {
+	border: 1px solid #000;
+	width: 70%;
+	margin: auto;
+	padding: 25px 10px;
+}
+.America3 {
+	border: 1px solid #000;
+	width: 70%;
+	margin: auto;
+	padding: 25px 10px;
+}
+	
+h4{
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.Page {
+	background-color: rgb(242, 242, 242);
+	width: 100%;
+	height: 60vh;
+	position: absolute;
+	text-align:center;
+	padding: 30px;
+}
+.LoginPage input[type= "text"], .LoginPage input[type = "password"] {
+	border: 0;
+	background-color: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 15px;
+	outline: none;
+	color: black;
+	border-radius: 12px;
+	
+}
+.LoginPage label {
+	color: rgb(64, 64, 64);
+}
+
